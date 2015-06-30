@@ -18,6 +18,6 @@ test('visiting /recipies-test', function(assert) {
   visit('/recipies-test');
 
   andThen(function() {
-    assert.equal(find('.ingredients').length, 10);
+    assert.equal(find('.ingredients').length, 8);
   });
 });
